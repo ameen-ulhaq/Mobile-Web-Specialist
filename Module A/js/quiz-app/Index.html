@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>QuizZer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <script>
+        let name = prompt("Enter your name: ");
+        let ques = ["5 * 4", "2 + 2", "5 - 2"];
+        let ans = ["20", "4", "3"];
+        for(let i = 0; i < ques.lengt; i++){
+            parseInt(prompt(ques[i]));
+        }
+
+    </script>
+    <div class="main">
+        <div class="logo">
+                <h1>QuizZer</h1>
+                <hr>
+        </div>
+        <div class="nav">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>|</li>
+                <li>UserName</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h1>Score Board</h1>
+
+            <table>
+                <tr>
+                    <th>Questions</th>
+                    <th>Your Answers</th>
+                    <th>Correct Answers</th>
+                    <th>Corrct/Wrong</th>
+                </tr>
+                <script>
+                    for(let i = 0; i < ques.length; i++)
+                    {
+                        document.write(`
+                        <tr>
+                            <td>`+ques[i]+`</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        `);
+                    }
+                </script>
+               
+                <tr>
+                    <td></td>
+                    <th></th>
+                    <th></th>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+</body>
+</html>

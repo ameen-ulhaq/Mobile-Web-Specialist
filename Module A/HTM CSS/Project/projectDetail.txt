@@ -1,0 +1,40 @@
+1) Burger Shop
+2) Clothes Shop
+3) Mobile Shop
+4) Electronics Shop
+5) Books Shop
+6) Boutique
+7) Toys Shop
+8) Dvd Shop
+9) Sports Shop
+10) Meat Shop
+11) Watches Shop
+12) Car Showroom
+13) Computer Shop
+14) Jewellery Shop
+15) Gifts Shop
+16) Furniture Shop
+17) FastFood Shop
+18) Pizza Shop
+19) Ice Cream Shop
+20) Bakery Shop
+** Minimum requirement
+-Navigation
+-About
+-Contact Us Form
+-Product Lists
+Project will be completed in the following sequence
+Step 1:
+Search and note down the Requirements.
+Step 2:
+Start Project Structure in HTML.
+Step 3:
+Complete HTML and start CSS.
+Step 4:
+Complete HTML and CSS.
+Step 5: 
+implement JS for Cart.
+Step 6:
+Testing.
+Step 7:
+Finalize the Project.
