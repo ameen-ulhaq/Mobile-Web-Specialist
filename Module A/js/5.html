@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <script>
+        var a = 3;
+        var b = 5; 
+        document.write("Sum of "+a+" and "+b+" is: "+(a+b));
+        document.write("<br>Subs of "+a+" and "+b+" is: "+(a-b));
+        document.write("<br>Mul of "+a+" and "+b+" is: "+(a*b));
+        document.write("<br>Div of "+a+" and "+b+" is: "+(a/b));
+        document.write("<br>Mod of "+a+" and "+b+" is: "+(a%b));
+    </script>
+    <hr>
+    <script>
+    var $a;
+    document.write("Value after variable declaration is: "+$a);
+    $a = 5;
+    document.write("<br>Initial value: "+$a);
+    $a ++;
+    document.write("<br>Value after increment is: "+$a);
+    $a = $a + 7;
+    document.write("<br>Value after addition is: "+$a);
+    $a --;
+    document.write("<br>Value after decrement is: "+$a);
+    $a = $a % 3;
+    document.write("<br>The remainder is is: "+$a);
+    </script>
+        <hr>
+    <script>
+        var movieTicket = 600;
+        var ticketQty = 5;
+        var ticketCost = movieTicket*ticketQty;
+
+        document.write("Total cost of "+ticketQty+" tickets is: "+ticketCost+" PKR.");
+
+    </script>
+    <hr>
+    <script>
+        var tableNo = 4;
+    document.write("<h3>Table of "+tableNo+" </h3>");
+    document.write("<br>4 x 1 = "+tableNo*1);
+    document.write("<br>4 x 2 = "+tableNo*2);
+    document.write("<br>4 x 3 = "+tableNo*3);
+    document.write("<br>4 x 4 = "+tableNo*4);
+    document.write("<br>4 x 5 = "+tableNo*5);
+    document.write("<br>4 x 6 = "+tableNo*6);
+    document.write("<br>4 x 7 = "+tableNo*7);
+    document.write("<br>4 x 8 = "+tableNo*8);
+    document.write("<br>4 x 9 = "+tableNo*9);
+    document.write("<br>4 x 10 = "+tableNo*10);
+
+    </script>
+    <hr>
+    <script>
+    var celTemp = 25;
+    var celToFaren = (celTemp * 9/5) + 32;
+    document.write(celTemp+"<sup>0</sup>C is "+celToFaren+"<sup>0</sup>F <br>");
+
+    var farenTemp = 71;
+    var farenToCel = (farenTemp - 32) * 5/9;
+    
+    document.write(farenTemp+"<sup>0</sup>F is "+farenToCel+"<sup>0</sup>C");
+    </script>
+    <hr>
+    <script>
+    var itemA = 1200, itemB = 1400;
+    var qtyItemA = 3, qtyItemB = 8;
+    var shippingCharges = 120;
+    document.write("<h1>Shoping Cart</h1>");
+    document.write("<br>Price of item 1 is: "+itemA);
+    document.write("<br>Quantity of item 1 is: "+qtyItemA);
+    document.write("<br>Price of item 2 is: "+itemB);
+    document.write("<br>Quantity of item 2 is: "+qtyItemB);
+    document.write("<br>shipping Charges: "+shippingCharges);
+    document.write("<br><br>Total cost of order is: "+((itemA*qtyItemA)+(itemB*qtyItemB)+shippingCharges));
+    </script>
+    <hr>
+    <script>
+    var totalMarks = 700, marksObt = 524;
+    document.write("<br>Total marks: "+totalMarks);
+    document.write("<br>Marks Obtained: "+marksObt);
+    document.write("<br>Percentage: "+(marksObt/totalMarks)*100);
+    </script>
+    <hr>
+    <script>
+    var usd_amount = 10, riyal_amount = 25;
+    var usd = 104.80, riyals = 28;
+    document.write("Total currency in PKR is: "+( (usd * usd_amount) + (riyals * riyal_amount) ));
+    </script>
+    <hr>
+    <script>
+    var s_no = 75;
+    document.write("Answer: "+ ((s_no+5)*10)/2);
+    </script>
+    <hr>
+    <script>
+    var c_year = 2019;
+    var b_year = 2000;
+    var age = c_year - b_year;
+    document.write("<h1>Age Calculator</h1>");
+    document.write("<br>Current Year: "+c_year);
+    document.write("<br>Birth Year: "+b_year);
+    document.write("<br>Age is: "+age);
+    </script>
+    <hr>
+    <script>
+    var r = 20, pi = 3.142;
+    var cc = 2 * pi * r;
+    var area = pi * (r * r);
+    document.write("<h1>The Geometrizer</h1>");
+    document.write("<br>Radius of circile: "+r);
+    document.write("<br>Circumstace is: "+cc);
+    document.write("<br>Area is: "+area);
+    </script>
+    <hr>    
+    <script>
+    document.write("<h1>The Lifetime Supply Calculator</h1>");
+    var favSnack = "Chipee Chips";
+    var current_age = 15;
+    var max_age = 65;
+    var snacks_per_day = 3;
+    var total_snack_for_life = ((max_age - current_age) * snacks_per_day) * 365;
+
+    document.write("Favourite snack: "+favSnack);
+    document.write("<br>Current age: "+current_age);
+    document.write("<br>Estimated maximum age: "+max_age);
+    document.write("<br>Snacks per day: "+snacks_per_day);
+    document.write("<br>You will need "+ total_snack_for_life +" to last you until the ripe old age of "+max_age); 
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<heaad>
+</heaad>
+<body>
+    <script>
+        var aa = prompt("Write vaalue of 'aa' in no: ");
+        document.write("RESULT:<br>");
+        document.write("The vaalue of aa is: "+aa);
+        document.write("<br>..........................");
+        document.write("<br><br>The vaalue of ++aa is: "+(++aa));
+        document.write("<br>Now vaalue of aa is: "+aa);
+        document.write("<br><br>The vaalue of aa++ is: "+(aa++));
+        document.write("<br>Now vaalue of aa is: "+aa);
+        document.write("<br><br>The vaalue of --aa is: "+(--aa));
+        document.write("<br>Now vaalue of aa is: "+aa);
+        document.write("<br><br>The vaalue of aa-- is: "+(aa--));
+        document.write("<br>Now vaalue of aa is: "+aa);
+    </script>
+<hr>
+<script>
+
+    var a = 2, b = 1;
+    document.write("<br><br>RESULT of var a = 2, b = 1 with --a - --b + ++b + b-- :");
+    document.write("<br>RESULT of  --a: "+ (--a));
+    document.write("<br>RESULT of  --a - --b : "+ (--a - --b));
+    document.write("<br>RESULT of --a - --b + ++b : "+ (--a - --b + ++b));
+    document.write("<br>RESULT of var a=2, b=1 with --a - --b + ++b + b-- : "+ (--a - --b + ++b + b--));
+</script>
+<hr>
+<script>
+    var userName = prompt("Hi There, Please write your name: " );
+    alert("Welcome "+userName+"!");
+</script>
+<hr>
+<script>
+    var tbl_no = prompt("Write a no to generate table: ", 5);
+
+    document.write("<h3>Table of "+tbl_no+" </h3>");
+    document.write("<br>"+tbl_no+" x 1 = "+tbl_no*1);
+    document.write("<br>"+tbl_no+" x 2 = "+tbl_no*2);
+    document.write("<br>"+tbl_no+" x 3 = "+tbl_no*3);
+    document.write("<br>"+tbl_no+" x 4 = "+tbl_no*4);
+    document.write("<br>"+tbl_no+" x 5 = "+tbl_no*5);
+    document.write("<br>"+tbl_no+" x 6 = "+tbl_no*6);
+    document.write("<br>"+tbl_no+" x 7 = "+tbl_no*7);
+    document.write("<br>"+tbl_no+" x 8 = "+tbl_no*8);
+    document.write("<br>"+tbl_no+" x 9 = "+tbl_no*9);
+    document.write("<br>"+tbl_no+" x 10 = "+tbl_no*10);
+</script>
+<hr>
+<script>
+    var subA = prompt("Name of 1st subject: ");
+    var subB = prompt("Name of 2nd subject: ");
+    var subC = prompt("Name of 3rd subject: ");
+    var tM_subA = 100, tM_subB = 100, tM_subC = 100;
+    var totalMarks = tM_subA + tM_subB + tM_subC;
+    var marks_subA = parseInt(prompt("Marks of 1st subject: "));
+    var marks_subB = parseInt(prompt("Marks of 2nd subject: "));
+    var marks_subC = parseInt(prompt("Marks of 3rd subject: "));
+    var total_obtain_marks = (marks_subA + marks_subB + marks_subC);
+    var percentage = (total_obtain_marks/totalMarks) * 100;
+</script>
+<table>
+    <tr>
+        <th>Subsjects</th>
+        <th>Total Marks</th>
+        <th>Obtained Marks</th>
+        <th>Percentage</th>
+    </tr>
+    <tr>
+        <td> <script> document.write(subA);</script> </td>
+        <td> <script> document.write(tM_subA);</script> </td>
+        <td>  <script> document.write(marks_subA);</script> </td>
+        <td>  <script> document.write(marks_subA/tM_subA * 100+"%");</script> </td>
+        
+        <td>   </td>
+    </tr>
+    <tr>
+        <td> <script> document.write(subB);</script> </td>
+        <td> <script> document.write(tM_subB);</script> </td>
+        <td>  <script> document.write(marks_subB);</script> </td>
+        <td>  <script> document.write(marks_subB/tM_subB * 100+"%");</script> </td>
+    </tr>
+    <tr>
+        <td> <script> document.write(subC);</script> </td>
+        <td> <script> document.write(tM_subC);</script> </td>
+        <td>  <script> document.write(marks_subC);</script> </td>
+        <td>  <script> document.write(marks_subC/tM_subC * 100+"%");</script> </td>
+    </tr>
+    <tr>
+        <td></td>
+        <th> <script> document.write(totalMarks);</script> </th>    
+        <th>  <script> document.write(total_obtain_marks);</script> </th>
+        <th>  <script> document.write(percentage+"%");</script> </th>  
+    </tr>
+</table>
+
+
+
+</body>
+
+</html>
